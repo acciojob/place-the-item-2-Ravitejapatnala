@@ -1,2 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+}
 
-/* Your CSS Code here. */
+.holder{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.item-1{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	font-size: 50px;
+	order: 2;
+}
+.item-2{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	font-size: 50px;
+	order: 3;
+}
+.item-3{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	font-size: 50px;
+	order: 1;
+}
